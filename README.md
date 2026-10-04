@@ -12,6 +12,8 @@ This repository is the blank system: Jake Gutierrez's LaTeX resume, a bullet-ban
 - `pdflatex` (MacTeX on macOS, or TeX Live)
 - A chat or coding agent that can read this folder (Cursor works)
 
+If you do not have LaTeX yet, this video shows how to install a LaTeX viewer: [How to install a LaTeX viewer](https://www.youtube.com/watch?v=4lyHIQl4VM8).
+
 Check LaTeX with:
 
 ```bash
