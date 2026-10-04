@@ -2,9 +2,9 @@
 
 Keep one honest master resume. Cut a one-page version for each job. Pressure-test that page before you submit it.
 
-This repository is the blank system: a LaTeX layout, a bullet-bank format, and three prompts. The example person in `template/` is fiction. Your real resume stays on your computer. `resume.tex`, `bullet-bank.md`, `tailored/`, and `final/` are gitignored so a later commit does not publish them.
+This repository is the blank system: Jake Gutierrez's LaTeX resume, a bullet-bank format, and three prompts. The person in `template/` (First Last) is a placeholder. Your real resume stays on your computer. `resume.tex`, `bullet-bank.md`, `tailored/`, and `final/` are gitignored so a later commit does not publish them.
 
-The page layout is adapted from [sb2nov/resume](https://github.com/sb2nov/resume) by Jake Gutierrez, under the MIT license.
+`template/resume.tex` is Jake Gutierrez's template, MIT licensed, based on [sb2nov/resume](https://github.com/sb2nov/resume). Compiling it needs `fontawesome5` (part of a normal TeX Live or MacTeX install).
 
 ## What you need
 
@@ -22,7 +22,7 @@ pdflatex --version
 
 | File | What it is |
 | --- | --- |
-| `template/resume.tex` | Blank layout plus fictional sample content |
+| `template/resume.tex` | Jake Gutierrez's template, with his placeholder jobs |
 | `template/bullet-bank.md` | The same sample, stored as a menu of bullets |
 | `resume.tex` | Your consolidated master. It may be longer than one page. You create this. |
 | `bullet-bank.md` | Every true bullet you have, plus older wording worth reusing |
@@ -60,7 +60,7 @@ The agent should:
 - Copy those same facts into `bullet-bank.md`, including older sentences from past versions when they are still true
 - Ask you when two resumes disagree on a date, a title, or a number
 
-If you have no old files, either edit `resume.tex` yourself or tell the agent your history one role at a time. Say "do not keep the example" so Alex Rivera does not survive into your file.
+If you have no old files, either edit `resume.tex` yourself or tell the agent your history one role at a time. Say "do not keep the placeholder" so First Last does not survive into your file.
 
 Before you move on, read the master and check:
 
@@ -125,7 +125,7 @@ The rewrites stay in the chat until you reply `apply`. Accept a line only when i
 
 ## 6. Save the file you will submit
 
-Upload the PDF in `final/`. The name looks like `Alex Rivera - Northwind SWE.pdf`, with your name and the company.
+Upload the PDF in `final/`. The name looks like `First Last - Electronics Company SWE.pdf`, with your name and the company.
 
 Leave the master alone unless you are correcting a fact or adding new work. When something new is true, add it to `resume.tex` and `bullet-bank.md`, then tailor again.
 
@@ -154,7 +154,7 @@ Do not submit the example resume anywhere.
 - Bold the result someone should see while skimming.
 - Do not start two bullets with the same verb.
 - No em dashes in sentences. Date ranges may use `--` inside LaTeX.
-- Coursework is labeled `Relevant Coursework:`.
+- Coursework stays in the template's Relevant Coursework section.
 - Truth beats a closer keyword match.
 
 ## Compile without Make
@@ -176,4 +176,4 @@ make tailored FILE=tailored/acme-swe.tex
 
 ## Credits
 
-Layout adapted from [sb2nov/resume](https://github.com/sb2nov/resume) by Jake Gutierrez, MIT License. See `LICENSE`.
+`template/resume.tex` is by Jake Gutierrez, based on [sb2nov/resume](https://github.com/sb2nov/resume), MIT License. See `LICENSE`.

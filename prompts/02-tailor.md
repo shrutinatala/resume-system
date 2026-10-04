@@ -28,7 +28,8 @@ Create a one-page resume for this role from my consolidated master. Do not inven
 - No em dashes in prose (no `---`, `—`, or em-dash phrasing). Date ranges may use `--`.
 - Sound direct. Do not invent experience, titles, dates, metrics, or tools.
 - Tailor by choosing bullets, reordering coursework, reordering skills, and choosing which projects and leadership entries to show. Prefer truth over keyword stuffing.
-- Under Education, keep the label `Relevant Coursework:`.
+- Keep Jake Gutierrez's preamble and section order. Subheadings stay `\resumeSubheading{Organization}{Dates}{Role or degree}{Location}`.
+- Coursework stays in the `Relevant Coursework` section. Reorder items inside that list. Do not rename the section or move it under Education.
 - Reuse project bullets from `bullet-bank.md`. Do not rewrite project wording unless I asked. Swap which projects appear.
 - You may use an alternate phrasing from the bullet bank when it fits the job better. Do not write a new sentence that adds a new fact.
 - Every bullet must follow: accomplished [X] as measured by [Y] by doing [Z]. Bold the key result.

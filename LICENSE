@@ -22,6 +22,6 @@ SOFTWARE.
 
 ---
 
-The LaTeX page layout in template/resume.tex is adapted from
-https://github.com/sb2nov/resume by Jake Gutierrez, which is also MIT licensed.
-Keep that project's copyright notice if you redistribute the preamble.
+template/resume.tex is Jake Gutierrez's resume template, MIT licensed,
+based on https://github.com/sb2nov/resume. The file header names the author.
+Keep that notice if you redistribute the template.
