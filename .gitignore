@@ -1,0 +1,18 @@
+# Personal career files. The templates in template/ are the files to publish.
+/resume.tex
+/bullet-bank.md
+/tailored/
+/final/
+
+# LaTeX build output
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.xdv
+*.pdf
+
+.DS_Store
